@@ -12,6 +12,10 @@
   z-index: 1;
 }
 
+.product__container:hover {
+  background-color: silver;
+}
+
 .product__info {
   height: 100px;
   margin-bottom: 15px;

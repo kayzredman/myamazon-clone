@@ -14,7 +14,7 @@ function Home() {
 
             {/* Prodcut id, title, price, rating, image */}
             <div className="home__row">
-                <Product
+                <Product 
                 id="12121"
                 title=" The lean Startup: How Innovation started creates radically successful Business Paperback"
                 price={11.9}
