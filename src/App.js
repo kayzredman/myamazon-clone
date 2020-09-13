@@ -24,7 +24,7 @@ function App() {
           user: authUser,
         });
       } else {
-        // user is logged out...
+        // user is logged out from system...
         dispatch({
           type: "SET_USER",
           user: null,
