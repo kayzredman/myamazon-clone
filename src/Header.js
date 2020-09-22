@@ -46,10 +46,12 @@ function Header() {
         </Link>
 
         {/* 2nd Link */}
-        <div className="header__option">
-          <span className="header__option1">Returns</span>
-          <span className="header__option2">& Orders</span>
-        </div>
+        <Link to="/orders">
+          <div className="header__option">
+            <span className="header__option1">Returns</span>
+            <span className="header__option2">& Orders</span>
+          </div>
+        </Link>
 
         {/* 3rd Link */}
         <div className="header__option">

@@ -22,6 +22,13 @@ const reducer = (state, action) => {
         ...state,
         basket: [...state.basket, action.item],
       };
+
+    case "EMPTY_BASKET":
+      return {
+        ...state,
+        basket: []
+      }
+
     case "REMOVE_FROM_BASKET":
      //Clone the basket....
       let newBasket = [...state.basket];
